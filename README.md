@@ -19,8 +19,18 @@ construye esta herramienta.
 
 ---
 
+## Demo
+
+[![Demo: buscar en Google Maps, ver la tabla de leads, el mapa y exportar](docs/demo.webp)](docs/demo.webp)
+
+_Búsqueda de ejemplo con datos ficticios (9 ferreterías en Caballito): grilla,
+tabla de leads, mapa con radio y panel de exportación._
+
+---
+
 ## Índice
 
+- [Demo](#demo)
 - [Qué hace](#qué-hace)
 - [Presentación](#presentación)
 - [Requisitos](#requisitos)
