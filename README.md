@@ -22,7 +22,7 @@ construye esta herramienta.
 ## Índice
 
 - [Qué hace](#qué-hace)
-- [Capturas / recorrido](#recorrido-de-una-campaña)
+- [Presentación](#presentación)
 - [Requisitos](#requisitos)
 - [Instalación local](#instalación-local)
 - [Cómo se usa](#cómo-se-usa)
@@ -80,6 +80,24 @@ Todo en **español e inglés** (ES/EN), con modo claro/oscuro.
 | Email con waterfall y cache | Raspar es caro; no se repite trabajo ni se abren conexiones infinitas |
 | Concurrencia acotada a 8 | Google rate-limite; abrir cientos de conexiones a la vez te banea |
 | Export curado (31 campos) | Un CRM con 200 columnas de JSON no se usa |
+
+---
+
+## Presentación
+
+La presentación completa (**15 slides**) explica el problema, la arquitectura de
+extracción y las decisiones técnicas del proyecto.
+
+[![Vista general de la presentación: 15 slides](docs/presentacion/vista-general.jpg)](docs/presentacion/maps-lead-extractor.pdf)
+
+**[Ver la presentación en PDF (15 slides)](docs/presentacion/maps-lead-extractor.pdf)** ·
+[Descargar los slides sueltos (JPG)](docs/presentacion)
+
+| Arquitectura en cuatro fases | Anatomía del enriquecimiento |
+|---|---|
+| [![Arquitectura de extracción](docs/presentacion/slide-03.jpg)](docs/presentacion/slide-03.jpg) | [![Enriquecimiento: owner, email, intent](docs/presentacion/slide-05.jpg)](docs/presentacion/slide-05.jpg) |
+| **Seguridad de proxies** | **Rendimiento medido** |
+| [![Proxies por archivo, no por línea de comandos](docs/presentacion/slide-09.jpg)](docs/presentacion/slide-09.jpg) | [![Rendimiento: 499 KB, 17 ms, 475 tipos](docs/presentacion/slide-13.jpg)](docs/presentacion/slide-13.jpg) |
 
 ---
 
