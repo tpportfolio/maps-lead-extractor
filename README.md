@@ -8,6 +8,10 @@
 [![React](https://img.shields.io/badge/React-19.2.4-087ea4?logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript)](https://www.typescriptlang.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/tpportfolio/maps-lead-extractor?style=social)](https://github.com/tpportfolio/maps-lead-extractor/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/tpportfolio/maps-lead-extractor)](https://github.com/tpportfolio/maps-lead-extractor/commits/main)
+
+> Issues y PRs: [github.com/tpportfolio/maps-lead-extractor/issues](https://github.com/tpportfolio/maps-lead-extractor/issues)
 
 Una lista de negocios solo sirve para outbound cuando cada fila tiene
 **owner + email verificado + razón de contacto**. Eso es exactamente lo que

@@ -45,6 +45,14 @@ export default function Home() {
         <footer className="app-footer">
           <a
             className="app-footer-link"
+            href="https://github.com/tpportfolio/maps-lead-extractor"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Código abierto (MIT) en <span className="app-footer-name">GitHub</span>
+          </a>
+          <a
+            className="app-footer-link"
             href="https://tomaspero.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
