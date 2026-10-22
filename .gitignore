@@ -1,0 +1,40 @@
+# dependencias
+node_modules/
+
+# build de Next.js
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# artefactos
+*.bak
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+
+# secretos y variables de entorno
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# despliegue
+.vercel/
+*.local
+
+# sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# documentos internos de trabajo (no son parte del proyecto)
+handoff.md
+docs-internos/
