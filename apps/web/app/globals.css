@@ -871,14 +871,16 @@ select.input-field optgroup {
 }
 
 .button-primary:hover {
-  background: rgba(34, 240, 255, 0.09);
+  background: var(--cta);
   color: var(--cta-text);
   border-color: var(--cta);
+  filter: brightness(1.08);
 }
 
 [data-theme="light"] .button-primary:hover {
-  background: rgba(139, 67, 21, 0.09);
+  background: var(--cta);
   color: var(--cta-text);
+  filter: brightness(1.06);
 }
 
 .button-ghost {

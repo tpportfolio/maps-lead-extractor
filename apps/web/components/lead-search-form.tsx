@@ -1350,7 +1350,7 @@ export default function LeadSearchForm() {
         <>
           <section id="resultados" className="vw-section">
             <div className="panel-header">
-              <h2>{t("results.title")} - {viewTab}</h2>
+              <h2>{viewTab === "resultados" ? t("results.title") : `${t("results.title")} - ${t(`filters.view.${viewTab}`)}`}</h2>
               <div className="flex items-center gap-2">
                 <span>{filteredLeads.length} visibles - {uniqueLeads.length} totales - {Object.keys(enrichMap).length} enriquecidos</span>
                 {colWidths ? (
