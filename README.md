@@ -12,6 +12,8 @@
 [![Last commit](https://img.shields.io/github/last-commit/tpportfolio/maps-lead-extractor)](https://github.com/tpportfolio/maps-lead-extractor/commits/main)
 
 > Issues y PRs: [github.com/tpportfolio/maps-lead-extractor/issues](https://github.com/tpportfolio/maps-lead-extractor/issues)
+>
+> [Read in English](README.en.md)
 
 Una lista de negocios solo sirve para outbound cuando cada fila tiene
 **owner + email verificado + razón de contacto**. Eso es exactamente lo que
@@ -428,7 +430,7 @@ Se auditó la versión local contra el repo upstream:
 | Query en Maps | Cambiaba el orden vs la UI de Maps | Sufijo `near` eliminado: la grilla ya ubica |
 | PDF en el bundle inicial | 999.8 KB | 499 KB (pdf-lib y xlsx lazy) |
 
-### Lo que se agrejó
+### Lo que se agregó
 
 Filtros de calidad (reviews / rating / teléfono / web / cadenas), supresión de
 contactados, owner finder heurístico, waterfall de email con validación,
